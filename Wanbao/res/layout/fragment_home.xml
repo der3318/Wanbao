@@ -1,0 +1,192 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="0sp"
+    tools:context="com.g7.wanbao.MainActivity$PlaceholderFragment" >
+
+    <!-- to be replaced with viewPager -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/home_vp_imageSlider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center" />
+
+        <!-- bullets -->
+        <LinearLayout
+            android:layout_height="20sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:background="@drawable/transparent" 
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        	android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+            <ImageView
+                android:id="@+id/home_iv_bullet1"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:contentDescription="@string/desc"
+                android:background="@drawable/transparent"
+                android:src="@drawable/home_bullet_selected" />
+            <ImageView
+                android:id="@+id/home_iv_bullet2"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:contentDescription="@string/desc"
+                android:background="@drawable/transparent"
+                android:src="@drawable/home_bullet" />
+            <ImageView
+                android:id="@+id/home_iv_bullet3"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:contentDescription="@string/desc"
+                android:background="@drawable/transparent"
+                android:src="@drawable/home_bullet" />
+            <ImageView
+                android:id="@+id/home_iv_bullet4"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:contentDescription="@string/desc"
+                android:background="@drawable/transparent"
+                android:src="@drawable/home_bullet" />
+            <ImageView
+                android:id="@+id/home_iv_bullet5"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:contentDescription="@string/desc"
+                android:background="@drawable/transparent"
+                android:src="@drawable/home_bullet" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- class header -->
+
+    <TextView
+        android:id="@+id/home_tv_class_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:text="@string/home_tv_class_header"
+        android:textSize="24sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="0sp" />
+
+    <!-- buttons linking to classes -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="5sp"
+        android:layout_marginStart="5sp"
+        android:layout_marginEnd="5sp"
+        android:layout_marginBottom="5sp" >
+
+        <ImageButton
+            android:id="@+id/home_btn_class1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/transparent"
+            android:contentDescription="@string/desc"
+            android:src="@drawable/home_btn_class1"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_margin="5sp"
+            android:padding="5sp" />
+
+        <ImageButton
+            android:id="@+id/home_btn_class2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/desc"
+            android:layout_margin="5sp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:src="@drawable/home_btn_class2"
+            android:background="@drawable/transparent"
+            android:padding="5sp" />
+
+        <ImageButton
+            android:id="@+id/home_btn_class3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/transparent"
+            android:contentDescription="@string/desc"
+            android:padding="5dp"
+            android:src="@drawable/home_btn_class3"
+            android:layout_margin="5sp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="0sp"
+        android:layout_marginStart="5sp"
+        android:layout_marginEnd="5sp"
+        android:layout_marginBottom="0sp" >
+
+        <ImageButton
+            android:id="@+id/home_btn_class4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/transparent"
+            android:contentDescription="@string/desc"
+            android:padding="5sp"
+            android:src="@drawable/home_btn_class4"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_margin="5sp" />
+
+        <ImageButton
+            android:id="@+id/home_btn_class5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/transparent"
+            android:contentDescription="@string/desc"
+            android:padding="5sp"
+            android:src="@drawable/home_btn_class5"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_margin="5sp" />
+
+        <ImageButton
+            android:id="@+id/home_btn_class6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/transparent"
+            android:contentDescription="@string/desc"
+            android:padding="5sp"
+            android:src="@drawable/home_btn_class6"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_margin="5sp" />
+    </LinearLayout>
+
+    <!-- link to social media -->
+
+</LinearLayout>

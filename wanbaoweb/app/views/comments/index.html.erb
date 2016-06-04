@@ -1,0 +1,26 @@
+<div class="row">
+<div class="col-sm-12">
+	<h3>最新留言</h3>
+	<table class="table">
+		<thead>
+			<tr>
+				<td> # </td>
+				<td> 留言者 </td>
+				<td> 標題(商品編號) </td>
+				<td> 內容 </td>
+			</tr>
+		</thead>
+
+		<tbody>
+			<% @latest_comments.each do |comment| %>
+				<tr>
+				<td> # </td>
+				<td> <%= comment.text.to_s.split('#tab#')[0] %> </td>
+				<td> <%= comment.title %> </td>
+				<td> <%= comment.text.to_s.split('#tab#')[1] %> </td>
+				</tr>
+			<% end %>
+		</tbody>
+	</table>
+</div>
+</div>

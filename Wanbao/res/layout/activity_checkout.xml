@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+
+            <!-- buyer data -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#816047" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1sp"
+                    android:layout_weight="1"
+                    android:background="#ffffff" >
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/checkout_tv_buyerHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1sp"
+                android:background="#816047"
+                android:padding="2sp"
+                android:text="@string/checkout_tv_buyerHeader"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <!-- buyer name -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45sp"
+                android:layout_marginTop="3sp" >
+
+                <TextView
+                    android:id="@+id/checkout_tv_buyerNameTab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:labelFor="@+id/checkout_edtTxt_buyerName"
+                    android:text="@string/checkout_tv_nameTab"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/checkout_edtTxt_buyerName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2sp"
+                    android:layout_weight="1"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textSize="20sp" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+
+            <!-- buyer address -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45sp" >
+
+                <TextView
+                    android:id="@+id/checkout_tv_buyerAddressTab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1sp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:labelFor="@+id/checkout_edtTxt_buyerAddress"
+                    android:text="@string/checkout_tv_addressTab"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/checkout_edtTxt_buyerAddress"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2sp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPostalAddress"
+                    android:scrollHorizontally="true" />
+            </LinearLayout>
+
+            <!-- buyer email -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45sp" >
+
+                <TextView
+                    android:id="@+id/checkout_tv_buyerEmailTab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1sp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:labelFor="@+id/checkout_edtTxt_buyerEmail"
+                    android:text="@string/checkout_tv_emailTab"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/checkout_edtTxt_buyerEmail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2sp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:scrollHorizontally="true"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <!-- buyer phone -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45sp" >
+
+                <TextView
+                    android:id="@+id/checkout_tv_buyerPhoneTab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1sp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:labelFor="@+id/checkout_edtTxt_buyerPhone"
+                    android:text="@string/checkout_tv_phoneTab"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/checkout_edtTxt_buyerPhone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2sp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <!-- receiver data -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#816047" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1sp"
+                    android:layout_weight="1"
+                    android:background="#ffffff" >
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/checkout_tv_receiverHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1sp"
+                android:background="#816047"
+                android:padding="2sp"
+                android:text="@string/checkout_tv_receiverHeader"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <!-- same -->
+
+            <CheckBox
+                android:id="@+id/checkout_cb_same"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3sp"
+                android:text="@string/checkout_cb_same"
+                android:textColor="#666"
+                android:textSize="17sp" />
+
+            <!-- receiver name -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45sp" >
+
+                <TextView
+                    android:id="@+id/checkout_tv_receiverNameTab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:labelFor="@+id/checkout_edtTxt_receiverName"
+                    android:text="@string/checkout_tv_nameTab"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/checkout_edtTxt_receiverName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2sp"
+                    android:layout_weight="1"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textSize="20sp" >
+                </EditText>
+            </LinearLayout>
+
+            <!-- receiver address -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45sp" >
+
+                <TextView
+                    android:id="@+id/checkout_tv_receiverAddressTab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1sp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:labelFor="@+id/checkout_edtTxt_receiverAddress"
+                    android:text="@string/checkout_tv_addressTab"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/checkout_edtTxt_receiverAddress"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2sp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPostalAddress"
+                    android:scrollHorizontally="true" />
+            </LinearLayout>
+
+            <!-- receiver email -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45sp" >
+
+                <TextView
+                    android:id="@+id/checkout_tv_receiverEmailTab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1sp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:labelFor="@+id/checkout_edtTxt_receiverEmail"
+                    android:text="@string/checkout_tv_emailTab"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/checkout_edtTxt_receiverEmail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2sp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:scrollHorizontally="true"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <!-- receiver phone -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45sp" >
+
+                <TextView
+                    android:id="@+id/checkout_tv_receiverPhoneTab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="1sp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:labelFor="@+id/checkout_edtTxt_receiverPhone"
+                    android:text="@string/checkout_tv_phoneTab"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/checkout_edtTxt_receiverPhone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2sp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <!-- note header -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#816047" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="1sp"
+                    android:layout_weight="1"
+                    android:background="#ffffff" >
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/checkout_tv_noteHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1sp"
+                android:background="#816047"
+                android:padding="2sp"
+                android:text="@string/checkout_tv_noteHeader"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <!-- note -->
+
+            <EditText
+                android:id="@+id/checkout_edtTxt_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginTop="3sp"
+                android:inputType="textMultiLine"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/checkout_btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:text="@string/btn_cancel"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/checkout_btn_continue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:text="@string/btn_continue"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

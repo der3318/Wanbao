@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wanbao</string>
+    <string name="title_section1">您好，</string>
+    <string name="title_section2">主画面</string>
+    <string name="title_section3">购物车</string>
+    <string name="title_section4">我的收藏</string>
+    <string name="title_section5">查询订单</string>
+    <string name="title_section6">搜寻</string>
+    <string name="action_ch">简体中文</string>
+    <string name="action_tw">繁体中文</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    
+    <string name="action_title">Wanbao</string>
+    <string name="action_example">Example action</string>
+    <string name="action_search">搜寻</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="home_tv_hot">Hot</string>
+    <string name="home_tv_class">classification</string>
+    <string name="home_btn_class1">Class1</string>
+    <string name="home_btn_class2">Class2</string>
+    
+    <string name="class_name_1">日用品</string>
+    <string name="class_name_2">旅游套餐</string>
+   	<string name="class_name_3">衣物</string>
+   	<string name="class_name_4">食品</string>
+   	<string name="class_name_5">饰品</string>
+    <string name="class_name_6">宠物用品</string>
+   	
+    <string name="search_tv_keyword">请输入关键字</string>
+    <string name="search_btn_submit">搜寻湾宝!</string>
+    <string name="search_edtTxt_hint">搜寻</string>
+    
+    <string name="cart_tv_defaultQt">1</string>
+    <string name="cart_btn_delete">删除项目</string>
+    <string name="cart_tv_already">已加入购物车</string>
+    <string name="cart_btn_pay">结帐去</string>
+    <string name="cart_tv_qt">数量  </string>
+    <string name="cart_cb_selectAll">选取全部</string>
+    <string name="cartItem_btn_detail">商品详细资讯</string>
+    
+    <string name="favorite_btn_delete">移除收藏</string>
+    <string name="favorite_btn_addToCart">加到购物车</string>
+    
+    <string name="account_tv_cardID">Card ID</string>
+    <string name="account_btn_save">Save</string>
+    <string name="account_btn_init">Initialize</string>
+    <string name="account_btn_order">Order Status</string>
+    
+    <string name="item_iv_img">Image Not Found</string>
+    
+    <string name="money_tag">CNY¥</string>
+    
+    <string name="detail_tv_nameTitle">品名</string>
+    <string name="detail_tv_name">Name</string>
+    <string name="detail_tv_price">Price</string>
+    <string name="detail_tv_store">商家名</string>
+    <string name="detail_btn_cartAdd">加入购物车</string>
+    <string name="detail_btn_cartRemove">Remove from Shopping Cart</string>
+    <string name="detail_btn_favoriteAdd">加入收藏</string>
+    <string name="detail_btn_favoriteRemove">Remove from My Favorite</string>
+    <string name="detail_btn_pay">直接购买</string>
+    <string name="detail_btn_chat">讨论区</string>
+    <string name="detail_tv_itemDetail">商品详情</string>
+    <string name="detail_tv_makeComment">发表评论</string>
+    <string name="detail_tv_priceTab">价格</string>
+    <string name="detail_tv_itemDescriptionTab">简介</string>
+    <string name="detail_tv_itemQtTab">库存</string>
+    <string name="detail_tv_shopInfoTab">商家资讯</string>
+    
+    <string name="order_title">订单资讯</string>
+    <string-array name="order_names_array"> 
+        <item>商品名称</item>
+        <item>订单序号</item>
+        <item>樣式</item>
+        <item>数量</item>
+        <item>单价</item>
+        <item>价钱</item>
+        <item>收件人姓名</item>
+        <item>收件人电话</item>
+        <item>配送时间</item>
+        <item>送货时间</item>
+        <item>付款状态</item>
+        <item>订单状态</item>
+    </string-array>
+    <string name="order_mark">：</string>
+    <string name="order_tv_time">成立时间: </string>
+    <string name="order_tv_priceTab">总金额: </string>
+    <string name="order_tv_title">您的订单</string>
+    <string name="order_tv_itemName">商品名称</string>
+    <string name="order_tv_perItemPrice">单价</string>
+	<string name="order_tv_itemQt">数量</string>
+	<string name="order_btn_hint">查看更多</string>
+    
+    <string name="payment_status1">已付款</string>
+    <string name="payment_status2">未付款</string>
+    <string name="payment_status3">已退款</string>
+    
+    <string name="order_status1">待处理</string>
+    <string name="order_status2">已确认</string>
+    <string name="order_status3">取消订单</string>
+    <string name="order_status4">已配送</string>
+    <string name="order_status5">退单</string>
+    <string name="order_status6">已退货</string>
+    
+    <string name="checkout_header">结帐</string>
+    <string name="checkout_tv_buyerHeader">订购人资料</string>
+	<string name="checkout_tv_receiverHeader">收件人资料</string>
+    <string name="checkout_tv_nameTab">姓名</string>
+	<string name="checkout_tv_postalNumTab">邮政编码</string>
+	<string name="checkout_tv_addressTab">住址</string>
+	<string name="checkout_tv_emailTab">邮件帐号</string>
+	<string name="checkout_tv_phoneTab">电话</string>
+	<string name="checkout_cb_same">同订购人</string>
+    <string name="checkout_tv_noteHeader">备注</string>
+    
+    <string name="desc"/>
+    <string name="home_tv_class_header">类别选择</string>
+    
+    <string name="comment_tv_name">评论</string>
+    <string name="comment_edtTxt_hint">说点什么吧......</string>
+    
+    <string name="name_tv_user">请输入名称</string>
+    <string name="default_username">访客</string>
+    <string name="loading">载入中，请稍候</string>
+
+    <string name="edit"> [编辑]</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_continue">继续 ></string>
+    
+   	<string name="checkout_popup_undone">姓名、住址与电话为必填</string>
+    
+</resources>

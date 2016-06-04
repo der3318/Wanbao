@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="0sp"
+    android:paddingTop="5sp" >
+	
+    <!-- item image -->
+    <ImageView
+        android:id="@+id/searchItem_iv_img"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="80sp"
+        android:contentDescription="@string/item_iv_img"
+        android:src="@drawable/img_not_found" />
+
+    <!-- item info -->
+    <LinearLayout
+        android:layout_weight="6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="8sp" >
+
+        <TextView
+            android:id="@+id/searchItem_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
+            
+    	<TextView
+	    	android:id="@+id/searchItem_tv_price"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="17sp" />
+        
+    </LinearLayout>
+
+</LinearLayout>
