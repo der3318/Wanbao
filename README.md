@@ -12,9 +12,9 @@ This is a **Shopping Android App**. Users can find whatever they want and purcha
 
 
 #### **Details**
-* Github Repository URL: `https://github.com/der3318/Wanbao`
+* Github Repository URL: *https://github.com/der3318/Wanbao*
 * About Repository:
     * `Wanbao/`: Android App
     * `wanbaoweb/`: Ruby on Rails Web Server
     * `Wanbao.apk`: Apk for Android Client to install
-    * `https://wanbaoweb.herokuapp.com/`: The URL of our web server, which is deployed to *Heroku*
+    * *https://wanbaoweb.herokuapp.com*: The URL of our web server, which is deployed to *Heroku*
